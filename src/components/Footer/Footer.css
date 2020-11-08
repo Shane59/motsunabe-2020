@@ -1,0 +1,19 @@
+.footer {
+  background-color: rebeccapurple;
+}
+.contents-wrapper {
+  width: 1050px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.info-wrapper {
+  display: flex;
+}
+.info {
+  flex: 1 0 auto;
+}
+.list {
+  margin: 0;
+  line-height: 1.5;
+  list-style: none;
+}

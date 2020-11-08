@@ -1,0 +1,43 @@
+.online-store {
+  margin-left: 17%;
+  margin-top: 100px;
+  height: 470px;
+}
+.title {
+  text-align: left;
+}
+.online-block {
+  position: relative;
+}
+.online-img-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  background: url('https://firebasestorage.googleapis.com/v0/b/motsunabe-2020.appspot.com/o/meat1.png?alt=media&token=9f895529-eec6-4b5d-9e01-953f5edcb286') no-repeat center;
+  background-size: cover;
+  height: 385px;
+  display: flex;
+  align-items: center;
+  box-shadow:inset 0 0 0 2000px rgba(7, 6, 6, 0.3);
+}
+.messages-wrapper {
+  width: 500px;
+  flex: 0 0 auto;
+  margin: 0 auto;
+}
+.messages {
+  color: white;
+  text-align: left;
+}
+.online-store-button {
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin-left: auto;
+  margin-top: 70px;
+  background-color: red;
+  padding: 5px;
+  border-radius: 30px;
+  text-decoration: none;
+}
