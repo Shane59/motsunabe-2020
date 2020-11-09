@@ -1,10 +1,11 @@
 .about {
-  margin: 50px auto 0 0;
-  max-width: 900px;
+  margin: 150px 9% 0 0;
   height: 510px;
 }
 .about-title {
-  margin-left: 17%;
+  margin-left: 12%;
+  color: #882802;
+  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
 .about-block {
   position: relative;
@@ -15,15 +16,17 @@
   top: 0;
   left: 0;
   background-size: 100%;
-  background-color: salmon;
+  background-color: #F8EAE5;
   display: flex;
   align-items: center;
-  padding: 30px 30px 30px 17%;
+  padding: 30px 30px 30px 12%;
 }
 .about-messages-wrapper{
   flex: 1 1 auto;
   margin: 0 auto;
   margin-right: 50px;
+  align-self: flex-start;
+  margin-top: 30px;
 }
 .about-image {
   flex: 1 1 auto;
