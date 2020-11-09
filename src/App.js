@@ -27,10 +27,6 @@ function App() {
       <OnlineStore />
       <About />
       <Footer />
-      <header className="App-header">
-        <h1>Motsunabe Project</h1>
-        
-      </header>
     </div>
   );
 }

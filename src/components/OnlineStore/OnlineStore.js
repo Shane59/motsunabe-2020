@@ -19,7 +19,7 @@ export default function OnlineStore(props) {
               </div>
             </div>
             <a className="online-store-button" href="/">
-              ONLINE STORE
+              オンラインストア
             </a>
           </div>
         </div>

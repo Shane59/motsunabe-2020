@@ -12,7 +12,7 @@ export default function Header(props) {
   return (
     <div className="header">
       <div className="menu-bar">
-        <div className="title">Akaoni</div>
+        <h2 className="header-title">Akaoni</h2>
         <div className="menu-items">
           <div className="menu-item">TOP</div>
           <div className="menu-item">ONLINE STORE</div>
