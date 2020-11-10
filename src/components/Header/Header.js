@@ -5,6 +5,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import image1 from '../../images/testImage.JPG';
 import image2 from '../../images/testImage.JPG';
 import image3 from '../../images/testImage.JPG';
+import Hamberger from '../../SVGs/Hamberger';
 
 const topImage = "https://firebasestorage.googleapis.com/v0/b/motsunabe-2020.appspot.com/o/nabe1.png?alt=media&token=aa9ba3bd-88d4-42fe-b687-7becfa5bd157";
 
@@ -17,6 +18,9 @@ export default function Header(props) {
           <div className="menu-item">TOP</div>
           <div className="menu-item">ONLINE STORE</div>
           <div className="menu-item">ABOUT</div>
+        </div>
+        <div className="hamberger-menu">
+          <Hamberger />
         </div>
       </div>
       <div>

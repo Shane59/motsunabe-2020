@@ -32,3 +32,16 @@
   flex: 1 1 auto;
   height: 320px;
 }
+
+@media screen and (max-width: 745px) {
+  .about-wrapper {
+    flex-direction: column-reverse;
+  }
+  .about-messages-wrapper {
+    margin: 30px 0 0 0;
+  }
+  .about {
+    height: 710px;
+    margin: 0;
+  }
+}
