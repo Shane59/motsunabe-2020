@@ -46,8 +46,42 @@
     margin-left: auto;
     margin-right: 10px;
     fill: #882802;
+    cursor: pointer;
   }
   .header-title {
-    margin: 0 9% 0 10px;
+    margin: 0 9% 0 20px;
+  }
+  .smartphone-menu-wrapper {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #882802;
+  }
+  .smartphone-menu-bar {
+    display: flex;
+    align-items: baseline;
+  }
+  .smartphone-menu-bar {
+    flex: 0 0 auto;
+    margin: 10px 0px 0px;
+  }
+  .close-button {
+    margin-left: auto;
+    margin-right: 10px;
+    fill: white;
+  }
+  .menu-bar {
+    margin: 10px 0;
+  }
+  .mobile-menu-items-wrapper {
+    margin-top: 80px;
+    line-height: 2.5;
+  }
+  .mobile-menu-link {
+    text-decoration: none;
+    color: white;
   }
 }
