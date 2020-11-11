@@ -6,24 +6,27 @@ export default function Footer(props) {
   return (
     <div className="footer">
       <div className="contents-wrapper">
-        <h2>Akaoni</h2>
+        <h2 className="footer-title">あかおに</h2>
         <div className="info-wrapper">
-          <div className="info">
-            大阪市
+          <div className="address">
+            大阪市界市中区平井195-1<br/>
+            <a className="number" href="TEL: 0722223333">TEL. 072-222-333</a><br/>
+            <a className="google-map" href="https://google.com">Google Map</a>
           </div>
-          <div className="info">
-            <ul className="list">
-              <li>ONLINE STORE</li>
-              <li>Instagram</li>
-              <li>Blog</li>
-            </ul>
-          </div>
-          <div className="info">
-            <ul className="list">
-              <li>HOME</li>
-              <li>ONLINE STORE</li>
-              <li>ABOUT</li>
-            </ul>
+          <div className="links-wrapper">
+            <div className="info">
+              <ul className="list">
+                <li><a className="footer-link" href="">Instagram</a></li>
+                <li><a className="footer-link" href="">Blog</a></li>
+              </ul>
+            </div>
+            <div className="info2">
+              <ul className="list">
+                <li><a className="footer-link" href="/">HOME</a></li>
+                <li><a className="footer-link" href="#online-store">ONLINE STORE</a></li>
+                <li><a className="footer-link" href="#about">ABOUT</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
