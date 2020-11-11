@@ -1,19 +1,62 @@
 .footer {
-  background-color: rebeccapurple;
+  background-color: #6B2737;
+  color: white;
+}
+.footer-title {
+  width: 97px;
+  border-bottom: solid 2px;
 }
 .contents-wrapper {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 .info-wrapper {
   display: flex;
 }
+.address {
+  flex: 0 1 300px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
 .info {
-  flex: 1 0 auto;
+  flex: 1 1 300px;
+  margin-right: 150px;
+  width: 200px;
+}
+.info2 {
+  flex: 1 0 200px;
+}
+.links-wrapper {
+  display: flex;
+  flex: 0 0 auto;
 }
 .list {
   margin: 0;
+  padding: 0;
   line-height: 1.5;
   list-style: none;
+}
+.number {
+  text-decoration: none;
+  color: white;
+}
+.google-map {
+  color: white;
+}
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 745px) {
+  .footer {
+    margin-top: 47%;
+  }
+  .info-wrapper {
+    flex-wrap: wrap;
+  }
+  .info {
+    margin-right: 30px;
+  }
 }

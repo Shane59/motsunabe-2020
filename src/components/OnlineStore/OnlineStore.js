@@ -18,7 +18,7 @@ export default function OnlineStore(props) {
                 blog、Instagramでレシピ公開中!
               </div>
             </div>
-            <a className="online-store-button" href="/">
+            <a className="online-store-button" href="https://akaoni.official.ec/">
               オンラインストア
             </a>
           </div>
