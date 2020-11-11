@@ -3,8 +3,8 @@ import './OnlineStore.css';
 
 export default function OnlineStore(props) {
   return (
-    <div className="online-store">
-      <h2 className="title">
+    <div className="online-store" id="online-store">
+      <h2 className="online-store-title">
         お取り寄せ
       </h2>
       <div className="online-block">

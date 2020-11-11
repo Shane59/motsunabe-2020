@@ -5,7 +5,7 @@ const aboutImage = "https://firebasestorage.googleapis.com/v0/b/motsunabe-2020.a
 
 export default function About(props) {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h2 className="about-title">赤鬼について</h2>
       <div className="about-block">
         <div className="about-wrapper">

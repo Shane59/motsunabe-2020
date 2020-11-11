@@ -3,7 +3,7 @@
   margin-top: 100px;
   height: 470px;
 }
-.title {
+.online-store-title {
   text-align: left;
   color: #882802;
   font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
@@ -26,7 +26,7 @@
 .messages-wrapper {
   max-width: 500px;
   flex: 0 1 auto;
-  margin: 0 auto;
+  margin: 0 20px;
 }
 .messages {
   color: white;
@@ -49,5 +49,8 @@
   .online-store {
     margin: 100px 0 0 0;
     height: 470px;
+  }
+  .online-store-title {
+    margin: 0 0 10px 20px;
   }
 }
