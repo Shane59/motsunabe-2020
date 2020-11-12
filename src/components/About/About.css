@@ -32,6 +32,9 @@
   flex: 1 1 auto;
   height: 320px;
 }
+.about-message-body {
+  line-height: 28.8px;
+}
 
 @media screen and (max-width: 745px) {
   .about-wrapper {

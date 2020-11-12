@@ -16,7 +16,7 @@
 }
 .address {
   flex: 0 1 300px;
-  line-height: 1.4;
+  line-height: 24px;
   margin-bottom: 30px;
 }
 .info {
@@ -34,7 +34,7 @@
 .list {
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: 28.8px;
   list-style: none;
 }
 .number {

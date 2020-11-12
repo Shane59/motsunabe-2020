@@ -11,7 +11,7 @@ export default function About(props) {
         <div className="about-wrapper">
           <div className="about-messages-wrapper">
             <h2>安らげる家族との空間を。</h2>
-            <div>赤鬼は堺市で、長年お客様に愛されてきました。Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero inventore dolores vel neque soluta dicta officia quidem cupiditate, excepturi vitae molestiae! Labore hic repellat blanditiis minus maiores quod quaerat!</div>
+            <div className="about-message-body">赤鬼は堺市で、長年お客様に愛されてきました。Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero inventore dolores vel neque soluta dicta officia quidem cupiditate, excepturi vitae molestiae! Labore hic repellat blanditiis minus maiores quod quaerat!</div>
           </div>
           <img className="about-image" src={aboutImage} alt="about-image" />
         </div>
