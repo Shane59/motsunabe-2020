@@ -4,15 +4,24 @@
 }
 .footer-title {
   width: 97px;
-  border-bottom: solid 2px;
+  position: relative;
+}
+.footer-title:before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: -12px;
+  border-bottom: 2px solid white;
 }
 .contents-wrapper {
-  max-width: 1050px;
+  max-width: 1310px;
   margin: 0 auto;
   padding: 50px 20px;
 }
 .info-wrapper {
   display: flex;
+  margin-top: 50px;
 }
 .address {
   flex: 0 1 300px;
