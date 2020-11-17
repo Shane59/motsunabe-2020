@@ -5,6 +5,7 @@
 }
 .online-store-title {
   text-align: left;
+  font-size: 40px;
   color: #882802;
   font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
 }
@@ -38,13 +39,18 @@
   color: white;
   display: block;
   text-align: center;
-  width: 160px;
+  width: 210px;
   margin-left: auto;
   margin-top: 70px;
   background-color: #DD480D;
   padding: 5px;
   border-radius: 30px;
   text-decoration: none;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 745px) {
@@ -54,5 +60,6 @@
   }
   .online-store-title {
     margin: 0 0 10px 20px;
+    font-size: 24px;
   }
 }

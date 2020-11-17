@@ -21,7 +21,7 @@ export default function Header(props) {
     return (
       <div className="smartphone-menu-wrapper">
         <div className="smartphone-menu-bar">
-          <h2 className="header-title">あかおに</h2>
+          <h1 className="header-title">あかおに</h1>
           <div className="close-button" onClick={() => setSmartphoneMenuOpen(!smartphoneMenuOpen)}>{<Close />}</div>
         </div>
         <div className="mobile-menu-items-wrapper">
@@ -50,7 +50,7 @@ export default function Header(props) {
         </div>
       </div>
       {smartphoneMenuOpen ? <SmartphoneMenu /> : null}
-      <div>
+      <div className="slider-wrapper">
         <AliceCarousel
           duration={400}
           autoPlay={true}
