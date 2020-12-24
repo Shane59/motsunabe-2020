@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 // import * as firebase from "firebase/app";
 import 'firebase/storage';
+import InstagramSection from './components/InstagramSection/InstagramSection';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
@@ -26,6 +27,7 @@ function App() {
       <Header />
       <OnlineStore />
       <About />
+      <InstagramSection />
       <Footer />
     </div>
   );

@@ -1,0 +1,48 @@
+.instagram-section {
+  border: none;
+  overflow: hidden;
+  max-width: 890px;
+  margin-left: 12%;
+  height: 100%;
+}
+.instagram-section-wrapper {
+  /* text-align: center; */
+  margin: 150px 9% 0 0;
+  height: 510px;
+}
+.instagram-section-title {
+  margin-left: 12%;
+  font-size: 40px;
+  color: #882802;
+  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+.instagram-section-button {
+  color: white;
+  display: block;
+  text-align: center;
+  width: 210px;
+  margin-left: auto;
+  background-color: #DD480D;
+  padding: 5px;
+  border-radius: 30px;
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.instagram-section-title-wrapper {
+  align-items: baseline;
+  display: flex;
+}
+
+@media screen and (max-width: 745px) {
+  .instagram-section-title {
+    margin: 0 0 10px 20px;
+    font-size: 24px;
+  }
+  .instagram-section-title-wrapper {
+    flex-direction: column;
+  }
+}

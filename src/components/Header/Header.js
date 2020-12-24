@@ -52,12 +52,14 @@ export default function Header(props) {
       {smartphoneMenuOpen ? <SmartphoneMenu /> : null}
       <div className="slider-wrapper">
         <AliceCarousel
-          duration={400}
+          duration={700}
+          fadeOutAnimation={true}
+          animationDuration={900}
           autoPlay={true}
           buttonsDisabled={true}
           mouseDragEnabled={true}
           autoPlayInterval={2000}
-          autoPlayDirection="rtl"
+          autoPlayDirection="ltr"
           autoPlayActionDisabled={true}
         >
           <img className="slider-img" src={topImage} alt="akaoni menu"/>
