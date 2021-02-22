@@ -70,9 +70,6 @@
   .smartphone-menu-bar {
     display: flex;
     align-items: baseline;
-  }
-  .smartphone-menu-bar {
-    flex: 0 0 auto;
     margin: 10px 0px 0px;
   }
   .close-button {

@@ -1,9 +1,10 @@
 .instagram-section {
+  display: block;
   border: none;
   overflow: hidden;
-  max-width: 890px;
-  margin-left: 12%;
+  margin: 0 0 0 auto;
   height: 100%;
+  max-width: 1225px;
 }
 .instagram-section-wrapper {
   /* text-align: center; */
@@ -44,5 +45,22 @@
   }
   .instagram-section-title-wrapper {
     flex-direction: column;
+  }
+  .instagram-section {
+    max-width: 700px;
+    margin-top: 16px;
+  }
+  .instagram-section-wrapper {
+    margin: 390px 0 0 0;
+    height: 170px;
+  }
+}
+.instagram-section {
+  
+}
+
+@media screen and (max-width: 460px) {
+  .instagram-section {
+    max-width: 300px;
   }
 }
