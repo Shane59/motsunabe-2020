@@ -61,6 +61,6 @@
 
 @media screen and (max-width: 460px) {
   .instagram-section {
-    max-width: 300px;
+    max-width: 100%;
   }
 }
