@@ -2,9 +2,8 @@
   display: block;
   border: none;
   overflow: hidden;
-  margin: 0 0 0 auto;
+  margin: 0 0 0 12%;
   height: 100%;
-  max-width: 1225px;
 }
 .instagram-section-wrapper {
   /* text-align: center; */
